@@ -11,7 +11,7 @@ namespace Hello_World
             // take their input
             // if input is "yes", continue program, if not, then exit code
 
-            Console.WriteLine("Hello user, are you ready to try some coding? yes/no");
+            Console.WriteLine("Hello user, are you ready to try some coding? y/n");
             Console.Write("> ");
             string userAnswer = Console.ReadLine().ToLower().Trim();
 
