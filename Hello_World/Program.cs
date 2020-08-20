@@ -14,10 +14,9 @@ namespace Hello_World
             Console.WriteLine("Hello user, are you ready to try some coding? yes/no");
             Console.Write("> ");
             string userAnswer = Console.ReadLine().ToLower().Trim();
-            char firstInputIndex = userAnswer[0];
 
 
-            if (firstInputIndex == 'y')
+            if (userAnswer[0] == 'y')
             {
                 Console.WriteLine("Here we go then.\n");
             }
